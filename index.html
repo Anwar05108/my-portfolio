@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Anwar Sharif</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav-item"><a href="" class="nav__link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav__link">About</a></li>
+            <li class="nav-item"><a href="" class="nav__link">Skills</a></li>
+            <li class="nav-item"><a href="" class="nav__link">Work</a></li>
+            <li class="nav-item"><a href="" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header> -->
+
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Anwar Sharif</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi
+            <br />
+            I'am
+            <span class="home__title-color">Anwar</span>
+            <br />
+            React Developer
+          </h1>
+          <a href="#work" class="button">My Works</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://github.com/Anwar05108?tab=repositories"
+            class="home__social-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <!-- <a href="#" class="home__social-icon">
+            <i class="bx bxl-behance"></i>
+          </a> -->
+          <a
+            href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+            class="home__social-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </div>
+        <!-- <div class="home__img"><img src="assets/img/prefil.jpg alt="" /></div> -->
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__image">
+            <img src="assets/img/about.jpg" alt="" />
+          </div>
+          <div>
+            <h1 class="about__subtitle">I'am Anwar</h1>
+            <p class="about__text">
+              I am a student studying Computer Science and Engineering in the
+              best University in my country called Bangladesh University of
+              Engineering and Technology(BUET). I am interested in coding and
+              want to do a Developer's job. I am confident that the skills and
+              works I have shown in this website will get a place in your
+              company.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div>
+            <h1 class="skills__subtitle">Professional Skills</h1>
+            <p class="skills__text">
+              I have done a lot of works using javascript and python.Using
+              vanilla javascipt I have build games like tic tac to, Flappy Bird,
+              apps like todo app, Google maps demo using Google maps api. I have
+              build face and smile tracker using python and have done a lot of
+              little stuffs using python. My main focus is on React Js. Some of
+              my works on React are in the work section. I think this work
+              demostrates what I can do and I hope that it is enough for hiring
+              me.Besides I have knowledge about SQL, PHP, C, C++ and have done
+              projects on each of them.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-react skills__icon"></i>
+
+                <span class="skills__name">REACT JS</span>
+              </div>
+              <div class="skills__bar skills__react"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+            </div>
+            <!-- <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">NODE JS</span>
+              </div>
+              <div class="skills__bar skills__nodejs"></div>
+              <div>
+                <span class="skills__percentage">40%</span>
+              </div>
+            </div> -->
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-git skills__icon"></i>
+                <span class="skills__name">GIT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+
+            <!-- <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UX/UI</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-image-messenger"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Facebook Messenger Clone using React Js and Firebase</h2>
+              <p>
+                The messenger clone has React in its frontend and firebase
+                serving as the database and also doing some backend stuffs like
+                login and keeping track of the users.
+                <a
+                  href="https://facebook-messenger-clone-6d8ba.web.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version that I deployed using firebase
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-amazon"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Amazon Clone using React Js and Firebase</h2>
+              <p>
+                The amazon clone has React in its frontend and firebase serving
+                as the database and also doing some backend stuffs like
+                login.You can add product remove product from cart in this clone
+                <a href="https://clone-react187.web.app/" target="blank">
+                  Click here
+                </a>
+                to see the deployed version that I deployed using firebase
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-instagram"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Instagram Clone using React Js and Firebase</h2>
+              <p>
+                The Instagram clone has React in its frontend and firebase
+                serving as the database and also doing some backend stuffs like
+                login and keeping track of the users.
+                <a
+                  href="https://instagram-clone-react-d37c2.web.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version that I deployed using firebase
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-pixabay"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Pixabay site using React and Pixabay api</h2>
+              <p>
+                Here pixabay api is used to load images. You can change the
+                number of images 5, 15 or 30.The images are oriented in grid
+                style and here css grid is used no Material Ui is used here to
+                show the images.
+                <a
+                  href="https://pixabay-website-react.web.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version that I deployed using firebase
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-youtube"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Youtube Clone in React Js and using youtube api</h2>
+              <p>
+                The youtube clone is very simple in design. No sidebar or header
+                is there. It loads 5 videos at a time.
+                <a
+                  href="https://trusting-brown-96c652.netlify.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version that I deployed using firebase
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-covid"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>COVID-19 Tracker using React Js</h2>
+              <p>
+                The covid-19 tracker shows graph and number of cases and deaths.
+                It also shows data of a country in daily basis and a barchart
+                showing the nubber of total cases, total recoveries and total
+                deaths for the selected country.Chart js is used for barchart
+                and the graph.
+                <a
+                  href="https://practical-fermi-570e08.netlify.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version that I deployed using Netlify.
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-image-expense"></div>
+            <div class="card-text">
+              <!-- <span class="date">4 days ago</span> -->
+              <h2>Expense Tracker in React</h2>
+              <p>
+                This is a simple app and here you can keep track of your
+                expenses. But the record is not being saved because I have not
+                used any file operations.
+                <a
+                  href="https://hungry-wing-8b4218.netlify.app/"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+                to see the deployed version.
+              </p>
+            </div>
+            <div class="card-stats"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form
+            action="MAILTO:abdullahanwar133@gmail.com"
+            method="post"
+            class="contact__form"
+          >
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="submit"
+              value="Enviar"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section> -->
+    </main>
+    <footer class="footer">
+      <p class="footer__title">Anwar</p>
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/anwar.sharif.73550794"
+          class="footer__icon"
+          target="_blank"
+        >
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/anwar.sharif.73550794/"
+          class="footer__icon"
+          target="_blank"
+        >
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/Muhamma55421611"
+          class="footer__icon"
+          target="_blank"
+        >
+          <i class="bx bxl-twitter"></i>
+        </a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
